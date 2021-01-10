@@ -1,0 +1,19 @@
+.topbar, .bottom-bar {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: var(--navbar-height);
+  background: #789;
+  color: #DEF;
+  font: 2em "Lucida Console", "Courier New", monospace;
+}
+
+.topbar {
+  top: 0;
+}
+
+.bottom-bar {
+  bottom: 0;
+}

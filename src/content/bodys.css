@@ -1,0 +1,9 @@
+.content-body {
+  position: fixed;
+  padding: 1em;
+  top: var(--navbar-height);;
+  bottom: var(--navbar-height);;
+  width: 100%;
+  background: #123;
+  color: whitesmoke;
+}
