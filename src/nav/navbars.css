@@ -25,14 +25,13 @@
 .topbar .dia, .cast {
   display: flex;
   justify-content: center;
-
-  font-size: 22px;
+  align-items: center;
+  font-size: 18px;
   font-weight: bold;
-  padding: 3px;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  margin: 2px;
+  width: 24px;
+  height: 24px;
+  margin: 1px;
 }
 
 .topbar .dia {
@@ -45,4 +44,11 @@
   background-color: whitesmoke;
   color: black;
   box-shadow: 0 0 10px black;
+}
+
+.topbar .logo {
+  border-radius: 50%;
+  box-shadow: 0 0 10px black;
+  margin: 2px;
+  margin-right: 10px;
 }

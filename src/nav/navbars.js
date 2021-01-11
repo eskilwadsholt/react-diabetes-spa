@@ -1,5 +1,6 @@
 import React from 'react';
 import './navbars.css';
+import logo from './screenshot-32x32';
 
 const Bars = {
 
@@ -14,6 +15,7 @@ const Bars = {
     });
     return (
       <div className="topbar">
+        <img src={logo} alt="L" className="logo"/>
         {dia}{cast}
       </div>
     );
