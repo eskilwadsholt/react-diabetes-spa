@@ -23,6 +23,10 @@ class Topmenu extends React.Component {
         <div className="bar1"></div>
         <div className="bar2"></div>
         <div className="bar3"></div>
+        <div className="menu-items">
+          <div className="menu-item">Test</div>
+          <div className="menu-item">Another one</div>
+        </div>
       </div>
     );
   }
@@ -41,7 +45,9 @@ const Bars = {
     });
     return (
       <div className="topbar">
-        <img src={logo} alt="L" className="logo"/>
+        <a href="../">
+          <img src={logo} alt="L" className="logo"/>
+        </a>
         <div className="title">{dia}{cast}</div>
         <Topmenu/>
       </div>

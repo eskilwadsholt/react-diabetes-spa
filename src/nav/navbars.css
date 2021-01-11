@@ -56,6 +56,7 @@
 }
 
 .topbar .top-menu {
+  position: relative;
   width: 32px;
 }
 
@@ -77,4 +78,33 @@
 .top-menu.open .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.top-menu .menu-items {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 50px;
+  right: 0;
+  z-index: 1;
+  width: 150px;
+  transform-origin: top;
+  transform: scale(1, 0);
+  transition: 0.4s;
+}
+
+.top-menu.open .menu-items {
+  transform: scale(1);
+}
+
+.top-menu .menu-item {
+  background: #567;
+  border: 1px solid #9AB;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+}
+
+.top-menu .menu-item:hover {
+  background: #345;
 }
