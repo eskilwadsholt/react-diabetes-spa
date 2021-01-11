@@ -1,23 +1,20 @@
 import React from 'react';
 import './navbars.css';
 
-/*
-class Topbar extends React.Component {
-  render() {
-    return (
-      <div className="topbar">
-        This is a test ...
-      </div>
-    );
-  }
-}*/
-
 const Bars = {
 
   Top() {
+    let dia = [];
+    [..."DIA"].forEach(element => {
+      dia.push(<div className="dia" key={element}>{element}</div>);
+    });
+    let cast = [];
+    [..."CAST"].forEach(element => {
+      cast.push(<div className="cast" key={element}>{element}</div>);
+    });
     return (
       <div className="topbar">
-        This is a test ...
+        {dia}{cast}
       </div>
     );
   },
