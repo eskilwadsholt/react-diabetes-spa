@@ -11,7 +11,7 @@
   height: var(--navbar-height);
   background: #789;
   color: #DEF;
-  font: 2em "Lucida Console", "Courier New", monospace;
+  font: 2em;
 }
 
 .topbar {
